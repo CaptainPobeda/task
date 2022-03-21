@@ -1,0 +1,14 @@
+
+Ввод данных:
+INSERT INTO API_author VALUES (1, 'Maxim', 'Ivanov'), (2, 'Valeriy', 'Lobanov');
+
+INSERT INTO API_category VALUES (1, 'science'), (2, 'art'), (3, 'war'), (4, 'city');
+
+INSERT INTO API_tag VALUES (1, 'health'), (2, 'mathematics'), (3, 'human'), (4, 'building'), (5, 'painting'), (6, 'biology'), (7, 'museum');
+
+INSERT INTO API_article VALUES (1, 'Omsk', 'About Omsk','Lenin Street', '2020-10-03', 1, 4), 
+			       (2, 'The Great Patriotic War', 'About war','How the war began', '1975-10-03', 2, 3), 
+			       (3, 'Drug discovery', 'About antibiotics','antibiotics', '1965-01-12', 1, 1),
+			       (4, 'Moscow', 'About Moscow','Kremlin', '2010-01-12', 1, 4);
+
+INSERT INTO API_article_tags_id VALUES (1, 1, 4), (2, 1, 3), (3, 2, 3), (4, 2, 1), (5, 3, 6), (6, 3, 1), (7, 4, 4);
